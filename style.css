@@ -1,0 +1,50 @@
+/* selector universal*/
+*{
+    /*fondo del sitio*/
+    background-color: chartreuse;
+    /* color de letras*/
+    color: blue;
+}
+/* selector de etiquetas */
+h1 { color: darkorchid; }
+
+h2 { color: orange; }
+
+h3 { color: yellow; }
+
+/* selector de clase - modificar tipografia*/
+.tipografia {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;/* tamaño de la letra*/
+    font-weight: 800; /* anchura de la letra*/
+}
+
+/*selector ID*/
+#twitter{
+    text-align: center;
+    color: fuchsia;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Media queries para responsive desing
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+@media only screen and (max-width: 600px) {
+    body { background-color: blue;     }
+    p { color: blueviolet;     }
+}
+
+.michi, video{
+    width: 500px; /*Ancho*/
+/*ideal seria modificar uno solo*/
+    height: 300px; /*Alto*/
+}
+
+
+.engranaje{
+    width: 200px;
+    height: 200px;
+}
